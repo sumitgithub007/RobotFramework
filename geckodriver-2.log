@@ -1,0 +1,14 @@
+1690211357241	geckodriver	INFO	Listening on 127.0.0.1:58665
+1690211360314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\goyal\\AppData\\Local\\Temp\\rust_mozprofilepv8HSL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690211360602	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690211360607	Marionette	INFO	Listening on port 58676
+Read port: 58676
+WebDriver BiDi listening on ws://127.0.0.1:58666
+1690211360718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58666/devtools/browser/87482ee8-ad2b-4ddd-bb5d-d5e31d70f729
+1690211386316	Marionette	INFO	Stopped listening on port 58676
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))

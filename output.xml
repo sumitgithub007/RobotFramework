@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230731 16:44:09.327" rpa="false" schemaversion="4">
+<suite id="s1" name="For Loops22" source="C:\Users\goyal\PycharmProjects\pythonProject1\TestCases\For_Loops22.robot">
+<test id="s1-t1" name=" Select the datas" line="11">
+<for flavor="IN RANGE">
+<var>${i}</var>
+<value>11</value>
+<iter>
+<var name="${i}">0</var>
+<kw>
+<var>${result} =</var>
+<var>${i}</var>
+<msg timestamp="20230731 16:44:09.459" level="FAIL">Keyword name cannot be empty.</msg>
+<status status="FAIL" starttime="20230731 16:44:09.459" endtime="20230731 16:44:09.459"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230731 16:44:09.459" endtime="20230731 16:44:09.459"/>
+</kw>
+<status status="FAIL" starttime="20230731 16:44:09.459" endtime="20230731 16:44:09.459"/>
+</iter>
+<status status="FAIL" starttime="20230731 16:44:09.459" endtime="20230731 16:44:09.459"/>
+</for>
+<status status="FAIL" starttime="20230731 16:44:09.458" endtime="20230731 16:44:09.460">Keyword name cannot be empty.</status>
+</test>
+<doc>To validate the login form</doc>
+<status status="FAIL" starttime="20230731 16:44:09.328" endtime="20230731 16:44:09.461"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="For Loops22">For Loops22</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
