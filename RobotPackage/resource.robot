@@ -17,7 +17,7 @@ ${correctpassword}     learning
 
 *** Keywords ***
 Open the browser with Mortgage payment url
-  open browser  ${url}    ${browser}    options=add_experimental_option("detach",${True})
+  open browser  ${url}    ${browser}      options=add_experimental_option("detach",${True})
     set selenium implicit wait    5000
 Close Browser Session
     close browser
